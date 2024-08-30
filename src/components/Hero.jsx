@@ -29,7 +29,7 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="my-2 max-w-xl font-light tracking-tighter">
+                            className="my-2 max-w-xl font-light tracking-tighter custom:text-sm">
                             Hello, I'm
                         </motion.p>
 
@@ -37,7 +37,7 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="pb-10 text-6xl font-thin tracking-tight lg:text-8xl">
+                            className="pb-10 text-6xl font-thin tracking-tight lg:text-8xl custom:text-5xl">
                             Joshua Subido 
                         </motion.h1>
 
@@ -45,7 +45,7 @@ const Hero = () => {
                             variants={container(0.5)}
                             initial="hidden"
                             animate="visible"
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
+                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent custom:text-2xl">
                             Software Developer
                         </motion.span>
 
@@ -53,7 +53,7 @@ const Hero = () => {
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
-                            className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                            className="my-2 max-w-xl py-6 font-light tracking-tighter custom:text-sm">
                             {ABOUT_TEXT}
                         </motion.p>
 
@@ -64,27 +64,24 @@ const Hero = () => {
                             className="max-w-xl">
 
                             <div className="flex flex-wrap mb-2 items-center">
-                                <div 
-                                    className="rounded-2xl border-4 border-neutral-800 p-2 mr-2">
-                                    <FaLocationDot className="text-2xl"/>
+                                <div className="rounded-2xl border-4 border-neutral-800 p-2 mr-2">
+                                    <FaLocationDot className="text-2xl custom:text-xl"/>
                                 </div>
-                                <div className=""> {CONTACT.address} </div>
+                                <div className="custom:text-sm"> {CONTACT.address} </div>
                             </div>
 
                             <div className="flex flex-wrap mb-2 items-center">
-                                <div
-                                    className="rounded-2xl border-4 border-neutral-800 p-2 mr-2">
-                                    <IoCall className="text-2xl"/>
+                                <div className="rounded-2xl border-4 border-neutral-800 p-2 mr-2">
+                                    <IoCall className="text-2xl custom:text-xl"/>
                                 </div>
-                                <div className=""> {CONTACT.phoneNo} </div>
+                                <div className="custom:text-sm"> {CONTACT.phoneNo} </div>
                             </div>
 
                             <div className="flex flex-wrap items-center">
-                                <div
-                                    className="rounded-2xl border-4 border-neutral-800 p-2 mr-2">
-                                    <MdEmail className="text-2xl"/>
+                                <div className="rounded-2xl border-4 border-neutral-800 p-2 mr-2">
+                                    <MdEmail className="text-2xl custom:text-xl"/>
                                 </div>
-                                <div className=""> {CONTACT.email} </div>
+                                <div className="custom:text-sm"> {CONTACT.email} </div>
                             </div>
                         </motion.div>
 

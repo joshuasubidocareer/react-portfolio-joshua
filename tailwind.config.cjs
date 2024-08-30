@@ -13,6 +13,10 @@ module.exports = {
         'csharp-blue': '#3c6bc0',
         'java-red': '#007396',
       },
+      screens: {
+        'custom': {'max': '407px'},
+        'custom-name': {'max': '407px'},
+      },
     },
   },
   plugins: [],
