@@ -1,7 +1,7 @@
 import {ABOUT_TEXT, CONTACT} from "../constants"
 import profilePic from "../assets/myProfile.jpg"
 import { FaLocationDot } from "react-icons/fa6";
-import resume from "../assets/resume.pdf"
+import resume from "../assets/SUBIDO_Resume.pdf"
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion"
